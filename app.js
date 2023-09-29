@@ -8,7 +8,7 @@ app.get('/', (_req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
 
-app.post('/generate', (req, res) => {
+app.post('/app.js', (req, res) => {
     const frase = req.body.frase;
 
     if (typeof frase !== 'string') {
@@ -36,7 +36,7 @@ function generateFigure(frase) {
     return resultado;
 }
 
-/*const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor en funcionamiento en el puerto ${PORT}`);
-});*/
+});
