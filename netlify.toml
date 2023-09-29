@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"  # Actualiza con los comandos de construcción de tu proyecto
+  publish = "dist"  # Directorio de salida de tu aplicación (ajusta esto según tu proyecto)
+
+[context.production.environment]
+  NODE_ENV = "production"
