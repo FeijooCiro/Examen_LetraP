@@ -1,3 +1,0 @@
-[build]
-command = "npm run build"  # Comando para construir tu proyecto
-publish = "app.js"  # Directorio de publicación, donde se encuentra tu HTML y otros archivos estáticos
