@@ -8,7 +8,7 @@ app.get('/', (_req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
 
-app.post('/app.js', (req, res) => {
+app.post('/generate', (req, res) => {
     const frase = req.body.frase;
 
     if (typeof frase !== 'string') {
