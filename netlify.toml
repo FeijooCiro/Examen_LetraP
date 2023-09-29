@@ -1,3 +1,3 @@
 [build]
 command = "npm run build"  # Comando para construir tu proyecto
-publish = "public"  # Directorio de publicación, donde se encuentra tu HTML y otros archivos estáticos
+publish = "index.html"  # Directorio de publicación, donde se encuentra tu HTML y otros archivos estáticos
